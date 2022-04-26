@@ -7,4 +7,17 @@
 ------------
 For each project
 1. heroku create
+2.make sure git update
+3. git push heroku main
+4.go to heroku dashboard > current project >setting >reveal config vars
+5.copy paste config vars from .env files
+6. make sure whitelisted all ip address to access mongodb
+*--------------
+Update Server with new Changes
+-----------------
+1.Make changes
+2. make sure git update
+3. git push heroku main
+------------------
+Connect Server with Client
 */
